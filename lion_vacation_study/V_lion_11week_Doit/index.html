@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- ToDo list 담을 박스 -->
+    <div class="container">
+        <header>
+            <!-- 제목 박스 -->
+            <div class="title">
+                <h1>TO-DO List</h1>
+            </div>
+            <!-- form 박스 -->
+            <div class="form">
+                <form action="" id="new-task-form">
+                    <!-- input -->
+                    <input type="text" id="new-task-input" placeholder="오늘의 할 일은?" autocomplete="off">
+                    <input type="submit" id="new-task-submit" value="+">
+                </form>
+            </div>
+        </header>
+        <main>
+            <!-- list -->
+            <section class="task-list">
+                <div class="subTitle">
+                    <h2>할 일</h2>
+                </div>
+                <!-- list 목록 담을 박스 -->
+                <div id="tasks">
+    
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

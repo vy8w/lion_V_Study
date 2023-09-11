@@ -1,0 +1,29 @@
+.box {
+    height: 100px;
+    width: 100px;
+    border: 4px solid #000;
+}
+
+.bg-red {
+    background-color: #f00;
+}
+
+.bg-green {
+    background-color: #0f0;
+}
+
+.bg-blue {
+    background-color: #00f;
+}
+
+.txt-white {
+    color: #fff;
+}
+
+.txt-yellow {
+    color: ff0;
+}
+
+.txt-pink {
+    color: pink;
+}

@@ -1,0 +1,42 @@
+@media(max-width:768px) {
+    #main {
+        display: block;
+    }
+}
+
+.center-container {
+    text-align: center;
+    padding: 50PX;
+  }
+
+.btn-primary {
+    background-color: rgb(94, 151, 168);
+    border: 1cm solid rgb(94, 151, 168);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  .paper {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .message {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+
+.col {
+    width: 400px;
+    height: auto;
+
+}

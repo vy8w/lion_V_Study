@@ -1,0 +1,60 @@
+* {
+    background-color: rgb(44, 44, 44);
+    color: rgb(255, 255, 255);
+    font-family: 'Bagel Fat One', cursive;
+    font-family: 'Black Han Sans', sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    
+}
+
+.title {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn-container {
+    padding: 30px;
+    padding-bottom: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.img-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.player-item .img-info img {
+    max-width: 100%;
+    height: auto;
+}
+
+.filter-btn {
+    padding: 20px 70px;
+    background-color: #000000;
+    cursor: pointer;
+    border: none;
+    border-radius: 3dvh;
+    font-size: 20px;
+}
+
+.section-center .player-item {
+    padding: 30px;
+    text-align: center;
+}
+
+.section-center {
+    width : 700px;
+    height: auto;
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

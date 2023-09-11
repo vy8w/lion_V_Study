@@ -1,0 +1,124 @@
+/* 문서 트리의 루트 요소를 선택 */
+:root{
+    /* 전역 CSS 변수 선언 */
+    --body: #b8b8b8;
+    --container: #fff;
+}
+
+/* 초기화 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--body);
+}
+
+/* body > .container */
+.container{
+    border: 1px solid black;
+    min-height: 100vh;    /* 화면 높이 꽉 채움 */
+    background: var(--container);
+    width: 60%;
+    padding: 0 20px;
+    margin: 50px auto;
+    border-radius: 2rem;
+    text-align: center;
+}
+/* .container > header */
+header{
+    padding: 2rem 1rem;
+    width: 100%;
+    margin: 0 auto;
+}
+/* header > .title */
+.title h1{
+    margin-bottom: 1rem;
+    margin: atuo;
+}
+
+/* header > .form */
+.form{
+    margin-top: 2rem;
+}
+#new-task-form{
+    display: flex;
+}
+#new-task-input{
+    flex: 1 1 0%;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    border: none;
+}
+#new-task-submit{
+    font-weight: 700;
+    font-size: 3rem;
+    background: transparent;
+    color: var(--body);
+    border: none;
+    cursor: pointer;
+}
+#new-task-submit:hover{
+    opacity: 0.8;
+}
+#new-task-submit:active{
+    opacity: 0.6;
+}
+
+/* main */
+main{
+    flex: 1 1 0%;
+}
+/* main > section 태그 class */
+.task-list{
+    padding: 1rem;
+}
+.subTitle{
+    margin-bottom: 2rem;
+}
+.subTitle h2{
+    margin: auto;
+}
+/* list 목록 담을 박스 */
+#tasks .task{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--container);
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+#tasks .task .content{
+    display: flex;
+    flex: 1 1 0%;
+    justify-content: center;
+    align-items: center;
+}
+#tasks .task .content .text{
+    background-color: transparent;
+    border: none;
+    font-size: 1.125rem;
+    margin-left: 5px;
+    width: 100%;
+    display: block;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+#tasks .task .content .text:not(:read-only){
+    color: var(--body);
+}
+/* 버튼 담은 박스 .actions */
+#task .task .actions{
+    display: flex;
+    margin: 0 -0.5rem;
+}
+.task .actions button{
+    cursor: pointer;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    border: none;
+    background-color: transparent;
+}
